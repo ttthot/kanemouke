@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 export const App = () => {
-  // 入力フォームを読み取るルルル
+  // sss入力フォームを読み取るルルル
   const [todoText, setTodoText] = useState("");
   const [todoList, setNewTodoList] = React.useState([]);
 
@@ -18,7 +18,7 @@ export const App = () => {
     // todotextをnewTodoに入れる
     // 連想配列のリテラルは配列と違い、中括弧「 { 」で囲い、コロン「 : 」で key と value を紐付けます。
     const newTodo = {
-      comment: todoText
+      comment: todoText,
     };
     // DOMが更新される
     // push() メソッドは、todolist配列の末尾に 1 つ以上の要素を追加することができます
